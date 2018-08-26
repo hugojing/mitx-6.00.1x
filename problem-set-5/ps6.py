@@ -264,3 +264,9 @@ ciphertext = CiphertextMessage('rkevwtg eqhhgg gzejcpig nqacn guecrg tcmg dgjcxg
 print('Expected Output:', (24, 'picture coffee exchange loyal escape rake behave deepen leaf track misery health defendant with suggestion evening convenience stage model ring humble raise whistle tender ordinary companion taste multiplication supply awake secret decision poem describe shell'))
 print('Actual Output:  ', ciphertext.decrypt_message())
 print()
+
+def decrypt_story():
+  cipherText = CiphertextMessage(get_story_string())
+  return cipherText.decrypt_message()
+
+print(decrypt_story())
